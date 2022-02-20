@@ -68,3 +68,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Environment variables
+
+| Variable                                           | Purpose                                                                      |
+|  ---                                               |  ---                                                                         |
+| REACT_APP_FIREBASE_CONFIG                          | firebase config json in one line ex: {"<key1>":"<value>", "<key1>":"<value>"}|
+| BROWSER                                            | avoid open browser every app start. Default value: none                      |
