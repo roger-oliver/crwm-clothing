@@ -13,9 +13,9 @@ const CollectionPreview = ({ title, items }) => {
           // performance concern!!!
           items
             .filter((_, index) => index < 4)
-            .map(({id, ...otherCollectionItemProps}) => {
+            .map((item) => {
             return (
-              <CollectionItem key={id} {...otherCollectionItemProps}/>
+              <CollectionItem key={item.id} item={item}/>
             )
           })
         }
