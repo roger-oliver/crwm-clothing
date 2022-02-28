@@ -15,3 +15,7 @@ export const addItemToCart = (cartItems, cartItemToAdd) => {
 
   return newArray;
 };
+
+export const removeItemFromCart = (cartItems, cartItemId) => {
+  return cartItems.filter(cartItem => cartItem.id !== cartItemId);
+};
